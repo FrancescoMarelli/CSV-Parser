@@ -1,0 +1,47 @@
+ @startuml
+interface Practica2.JCharts.iCreateDataBase {
+~ CategoryDataset createDataBase(CSVParser,int,int)
+}
+class Practica2.ParserManager.CSVParser {
++ {static} String SEPARATOR
+- ArrayList<String> headers
+- ArrayList<ArrayList<String>> records
++ ArrayList<String> getHeaders()
++ String getValue(int,int)
++ int getSize()
++ String[] getValuesNonRepeated(int)
++ void parse()
+}
+class Practica2.JCharts.ChartDataBase {
++ CategoryDataset createDataBase(CSVParser,int,int)
+}
+abstract class Practica2.JCharts.Chart {
+~ iCreateDataBase createDataBase
+~ int xAxis
++ {abstract}void display()
+}
+abstract class Practica2.ParserManager.Parser {
+# String[] data
++ {abstract}void parse()
+}
+class Practica2.Main {
++ {static} void main(String[])
+}
+class Practica2.JCharts.LineChart {
++ void display()
+}
+class Practica2.URLManager.HTTPFileDownloader {
+- {static} int BUFFER_SIZE
++ {static} String downloadFromURL(String)
+}
+class Practica2.JCharts.BarChart {
++ void display()
+}
+
+
+Practica2.ParserManager.Parser <|-- Practica2.ParserManager.CSVParser
+Practica2.JCharts.iCreateDataBase <|.. Practica2.JCharts.ChartDataBase
+org.jfree.ui.ApplicationFrame <|-- Practica2.JCharts.Chart
+Practica2.JCharts.Chart <|-- Practica2.JCharts.LineChart
+Practica2.JCharts.Chart <|-- Practica2.JCharts.BarChart
+@enduml
