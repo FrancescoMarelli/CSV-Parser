@@ -12,8 +12,8 @@ import java.awt.*;
 public class BarChart extends Chart {
     public BarChart(String applicationTitle, String chartTitle, CSVParser file, int xAxis, int yAxis) {
         super(applicationTitle, xAxis, yAxis);
-        createDataBase = new ChartDataBase();
         if(xAxis > file.getHeaders().size() || yAxis > file.getHeaders().size()) throw new IndexOutOfBoundsException();
+        createDataBase = new ChartDataBase();
         JFreeChart barChart = ChartFactory.createBarChart(
                 chartTitle,
                 // X axis

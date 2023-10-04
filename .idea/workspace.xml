@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf98a20-bec5-4d8f-8253-8eac80ecc00b" name="Changes" comment="DAP P2" />
+    <list default="true" id="cdf98a20-bec5-4d8f-8253-8eac80ecc00b" name="Changes" comment="DAP P2">
+      <change afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/ChartManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/BarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/BarChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/Chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,12 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "FrancescoMarelli"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FrancescoMarelli&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -38,7 +46,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2W716Y9of7wQHt4tAP8NOh2DwDq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,16 +57,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/crerr/OneDrive/Desktop/Patrones",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/crerr/OneDrive/Desktop/Patrones/DAP-Practica02",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\crerr\OneDrive\Desktop\Patrones\DAP-Practica02\DAP-Practica02\src" />
       <recent name="C:\Users\crerr\OneDrive\Desktop\Patrones\ULL-DAP-Practica02-master\ULL-DAP-Practica02-master\src\Practica2" />
       <recent name="C:\Users\crerr\OneDrive\Desktop\Patrones\ULL-DAP-Practica02-master\ULL-DAP-Practica02-master\src\Practica2\ParserManager" />
     </key>
@@ -64,7 +75,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica2.Main" />
-      <module name="ULL-DAP-Practica02-master" />
+      <module name="DAP-Practica02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Practica2.*" />
@@ -104,6 +115,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="DAP P2" />
     <option name="LAST_COMMIT_MESSAGE" value="DAP P2" />
   </component>

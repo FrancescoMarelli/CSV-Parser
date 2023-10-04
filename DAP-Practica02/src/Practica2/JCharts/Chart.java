@@ -13,3 +13,4 @@ public abstract class Chart extends ApplicationFrame {
     }
     public abstract void display();
 }
+
