@@ -4,7 +4,7 @@ import org.jfree.ui.ApplicationFrame;
 
 
 public abstract class Chart extends ApplicationFrame {
-    iCreateDataBase createDataBase;
+    CreateDataBase createDataBase;
     int xAxis, yAxis;
     public Chart(String applicationTitle, int xAxis, int yAxis) {
         super(applicationTitle);

@@ -1,0 +1,25 @@
+@startuml
+class Practica2.ParserManager.CSVFile {
+- ArrayList<String> headers
+- ArrayList<ArrayList<String>> records
++ ArrayList<String> getHeaders()
++ String getValue(int,int)
++ int getSize()
++ ArrayList<ArrayList<String>> getRecords()
++ void printHeaders()
+}
+abstract class Practica2.ParserManager.Parser {
+# String[] data
++ {abstract}void parse()
+}
+class Practica2.ParserManager.CSVParser {
++ {static} String SEPARATOR
+- CSVFile csvFile
++ String[] getValuesNonRepeated(int)
++ void parse()
++ CSVFile getCsvFile()
+}
+
+
+Practica2.ParserManager.Parser <|-- Practica2.ParserManager.CSVParser
+@enduml

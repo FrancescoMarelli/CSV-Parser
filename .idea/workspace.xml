@@ -4,14 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf98a20-bec5-4d8f-8253-8eac80ecc00b" name="Changes" comment="DAP P2">
-      <change afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/ChartManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="cdf98a20-bec5-4d8f-8253-8eac80ecc00b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/BarChartDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/LineChartDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JParser/CSVFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JParser/ParseManager.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JParser/ParseManager.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JParser/ParserManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAP-Practica02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/BarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/BarChart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/Chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/ChartDataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/ChartManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/ChartManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/LineChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/LineChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/iCreateDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JCharts/CreateDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/ParserManager/CSVManager.plantuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/ParserManager/CSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JParser/CSVParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/ParserManager/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAP-Practica02/src/Practica2/JParser/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/JCharts/BarChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/JCharts/Chart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/JCharts/ChartDataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/JCharts/JCharts.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/JCharts/LineChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/JCharts/iCreateDataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/ParserManager/CSVManager.plantuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/ParserManager/CSVParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/ParserManager/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/Practica02.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/Practica2.plantuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/URLManager/HTTPFileDownloader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ULL-DAP-Practica02-master/Practica2/URLManager/URLManager.plantuml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +86,12 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\crerr\OneDrive\Desktop\Patrones\DAP-Practica02\DAP-Practica02\src\Practica2" />
       <recent name="C:\Users\crerr\OneDrive\Desktop\Patrones\DAP-Practica02\DAP-Practica02\src" />
       <recent name="C:\Users\crerr\OneDrive\Desktop\Patrones\ULL-DAP-Practica02-master\ULL-DAP-Practica02-master\src\Practica2" />
       <recent name="C:\Users\crerr\OneDrive\Desktop\Patrones\ULL-DAP-Practica02-master\ULL-DAP-Practica02-master\src\Practica2\ParserManager" />
@@ -76,6 +101,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica2.Main" />
       <module name="DAP-Practica02" />
+      <option name="PROGRAM_PARAMETERS" value="https://opendata-ajuntament.barcelona.cat/data/dataset/16c11ddf-a783-4b64-aa68-3dc83dc70379/resource/d0e4ec78-e274-4300-a3bc-cb85cf79014d/download" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Practica2.*" />
@@ -101,6 +127,23 @@
       <option name="presentableId" value="Default" />
       <updated>1696068629579</updated>
     </task>
+    <task id="LOCAL-00001" summary="Context">
+      <option name="closed" value="true" />
+      <created>1696421548756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696421548756</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Context and name formatting">
+      <option name="closed" value="true" />
+      <created>1696516162049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696516162049</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,16 +162,23 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="DAP P2" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAP P2" />
+    <MESSAGE value="Context" />
+    <MESSAGE value="Context and name formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Context and name formatting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
-          <option name="timeStamp" value="4" />
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="18" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.jfree.data.category.DefaultCategoryDataset" memberName="listenerList" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

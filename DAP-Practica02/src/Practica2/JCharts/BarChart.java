@@ -1,6 +1,6 @@
 package Practica2.JCharts;
 
-import Practica2.ParserManager.CSVParser;
+import Practica2.JParser.CSVParser;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -14,7 +14,7 @@ public class BarChart extends Chart {
         super(applicationTitle, xAxis, yAxis);
         if(xAxis > file.getCSVFile().getHeaders().size() || yAxis > file.getCSVFile().getHeaders().size()) throw new IndexOutOfBoundsException();
 
-        createDataBase = new ChartDataBase();
+        createDataBase = new BarChartDataBase();
         JFreeChart barChart = ChartFactory.createBarChart(
                 chartTitle,
                 // X axis
