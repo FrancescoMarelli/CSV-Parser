@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class CSVFile {
     private final ArrayList<String> headers;
-    private ArrayList<ArrayList<String>> records;
+    private final ArrayList<ArrayList<String>> records;
 
     public CSVFile(ArrayList<String> headers, ArrayList<ArrayList<String>> records) {
         this.headers = headers;
@@ -32,8 +32,8 @@ public class CSVFile {
 
     public void printHeaders() {
         int i = 0;
-        for (String header : headers) {
-            System.out.print(i + " " + header + " ");
+        for (String header : getHeaders()) {
+            System.out.println(i + ". " + header);
             i++;
         }
         System.out.println();
