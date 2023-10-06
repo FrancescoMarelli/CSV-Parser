@@ -17,7 +17,7 @@ public class LineChartDatabase implements CreateDataBase {
                     sum += Integer.parseInt(file.getCSVFile().getValue(j, yAxis));
                 }
             }
-            dataset.addValue(sum, file.getCSVFile().getValue(i, xAxis), file.getCSVFile().getValue(i, yAxis));
+            dataset.addValue(sum, file.getCSVFile().getValue(i, xAxis), xAxisValues[i]);
             System.out.println("Sum of " + file.getCSVFile().getValue(i, xAxis) + " is " + sum);
         }
         return dataset;
